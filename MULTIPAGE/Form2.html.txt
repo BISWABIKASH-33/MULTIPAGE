@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            background-color: skyblue;
+        }
+    </style>
+</head>
+<body>
+    <form action="/action_page.php">
+        <label for="HSC">Hsc Institution Name</label><span style="color: red !important; display: inline; float: none;">*</span> <br><br>
+        <input type="text" id="HSC" name="HSC" size="50" required><br>
+        <label for="HSC board">Hsc Board</label><span style="color: red !important; display: inline; float: none;">*</span> <br><br>
+        <input type="text" id="HSC board" name="HSC board" size="10 placeholder="(i.e CBSE,ICSC or State board )" required><br><br>
+      
+       
+         <label for="score">Score in HSC  inPercentage:</label><br>
+        <input type="number" id="score" name="score" min="1" max="100"><br><br>
+
+        <label for="SSC">Ssc Institution Name</label><span style="color: red !important; display: inline; float: none;">*</span> <br><br>
+        <input type="text" id="SSC" name="SSC" size="50" required><br>
+        <label for="SSC board">SSC Board</label><span style="color: red !important; display: inline; float: none;">*</span> <br><br>
+        <input type="text" id="SSC board" name="SSC board" size="10" placeholder="(i.e CBSE,ICSC or State board )" required><br><br>
+      
+       
+         <label for="score">Score in SSC in Percentage:</label><br>
+        <input type="number" id="score" name="score" min="1" max="100"><br><br>
+
+        <label for="pursuing">Currently pursuing</label><br>
+        <input type="text" id="pursuing" name="pursuing required" size="15"><br><br>
+
+        <label for="current education">Current educational institution name</label><br>
+        <input type="text" id="current education" name="current education" size="50" required><br><br> 
+
+        <label for="overall Percentage">Overall Percentage:</label><br>
+        <input type="number" id="overall Percentage" name="overall Percentage" min="1" max="100"><br><br>
+
+        <label for="backlog">Currently backlog(if any):</label><br>
+        <input type="radio" name="backlog" id="Yes" value="backlog"> Yes <br>
+        <input type="radio" name="backlog" id="No" value="backlog"> No <br>
+   
+        <a href="Form1.html" class="previous">&laquo; Previous</a>
+        <input type="submit" value="Submit">
+        <a href="form3.html" class="next">Next &raquo;</a>
+    </form>
+    <script type="text/javascript">
+        function validation()
+        {
+            var HSC = document.getElementById('HSC')
+            var HSC board = document.getElementById('HSC board')
+            var score  = document.getElementById('score')
+            var SSC = document.getElementById('SSC')
+            var SSC board  = document.getElementById('SSC board')
+            var score = document.getElementById('score')
+            var pursuing = document.getElementById('pursuing')
+            var current education = document.getElementById('current education')
+            var overall Percentage = document.getElementById('overall Percentage')
+            var Yes = document.getElementById('Yes')
+            var No = document.getElementById('No')
+                    
+        }
+
+    
+</body>
+</html>
+<php
+    if($_POST['submit'])
+    {
+        $sfname=$_POST['sfname'];
+        $sfname=$_POST['sfname'];
+        $sfname=$_POST['sfname'];
+        $sfname=$_POST['sfname'];
+        $sfname=$_POST['sfname'];
+        $sfname=$_POST['sfname'];
+        $sfname=$_POST['sfname'];
+        $sfname=$_POST['sfname'];
+        $sfname=$_POST['sfname'];
+        $sfname=$_POST['sfname'];
+        $sfname=$_POST['sfname'];
+        $sfname=$_POST['sfname'];
+        $sfname=$_POST['sfname'];
+        $sfname=$_POST['sfname'];
+        $sfname=$_POST['sfname'];
+    }

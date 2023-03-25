@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            background-color: skyblue;
+        }
+    </style>
+</head>
+<body>
+    
+    <form action="/action_page.php">
+        <label for="passport">Recent passport size photograph (image size less than 4MB)</label><br>
+        <label for="myfile"></label>
+        <input type="file" id="myfile" name="myfile" placeholder="Choose a file" required><br><br>
+        
+        <label for="HSC mark sheet">HSC mark sheet (image, PDF or docs size less than 4MB)</label><br>
+        <input type="file" id="HSC mark sheet" name="HSC mark sheet" accept="image,pdf,docs" placeholder="Choose a file" required><br><br>
+
+        <label for="SSC mark sheet">SSC mark sheet (image, PDF or docs size less than 4MB)</label><br>
+        <input type="file" id="SSC mark sheet" name="SSC mark sheet" accept="image,pdf,docs" placeholder="Choose a file" required><br><br>
+
+        <label for="semesters mark sheet">All semesters mark sheet in a single PDF or docs (file size less than 10MB)</label><br>
+        <input type="file" id="semesters mark sheet" name="semesters mark sheet" accept="pdf,docs" placeholder="Choose a file" required><br><br>
+       
+        <a href="Form2.html" class="previous">&laquo; Previous</a>
+        <input type="submit" value="Submit"> 
+    </form>
+
+
+</body>
+</html>
